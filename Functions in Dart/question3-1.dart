@@ -9,7 +9,7 @@ int maxNumber(List<int> numbers) {
 void main() {
   List<int> nums = [];
   while (true) {
-    stdout.write("กรอกตัวเลข (กด Enter เมื่อเสร็จ หรือพิมพ์ 'done' เพื่อหยุด): ");
+    stdout.write("กรอกตัวเลข (พิมพ์ 'done' เพื่อหยุด): ");
     String? input = stdin.readLineSync();
     if (input == 'done') {
       break;
